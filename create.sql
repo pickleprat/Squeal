@@ -1,0 +1,23 @@
+CREATE TABLE orders (
+	Idx BIGINT PRIMARY KEY, 
+	OrderID VARCHAR(255), 
+	Date VARCHAR(255), 
+	Status VARCHAR(255), 
+	Fulfilment VARCHAR(255), 
+	SalesChannel VARCHAR(255), 
+	ShipServiceLevel VARCHAR(255), 
+	Category VARCHAR(255), 
+	Size VARCHAR(15), 
+	CourierStatus VARCHAR(255), 
+	Qty INTEGER, 
+	Currency VARCHAR(10), 
+	Amount DECIMAL(10, 2), 
+	ShipCity VARCHAR(50), 
+	ShipState VARCHAR(50), 
+	ShipPostalCode VARCHAR(6), 
+	ShipCountry VARCHAR(100), 
+	B2B VARCHAR(10), 
+	FullfiledBy VARCHAR(5), 
+	New VARCHAR(10), 
+	Pending VARCHAR(100) 
+);  
